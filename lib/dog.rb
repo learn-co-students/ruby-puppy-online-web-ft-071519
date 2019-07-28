@@ -21,10 +21,7 @@ class Dog
   end
   attr_reader :save
   
-  def save=(save)
-    @save = save
+  def save
     @@all << self 
   end 
-  
-end 
 end 
